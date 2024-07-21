@@ -7,9 +7,7 @@ import useTela from "./useTela";
 export default function useCliente() {
     const repo: ClienteRepositorio = new ColecaoCliente();
 
-    const {formularioVisivel, tabelaVisivel, exibirTabela, exibirForm} = useTela();
-
-
+    const { formularioVisivel, tabelaVisivel, exibirTabela, exibirForm } = useTela();
     const [cliente, setCliente] = useState<Cliente>(Cliente.novoCliente())
     const [clientes, setClientes] = useState<Cliente[]>([])
 

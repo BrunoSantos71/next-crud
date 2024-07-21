@@ -9,7 +9,7 @@ import useCliente from "@/hooks/useCliente";
 
 export default function Home() {
 
-  const {novoCliente, salvarCliente, clienteSelecionado, clienteExcluido, formularioVisivel, tabelaVisivel, cliente, clientes, exibirTabela} = useCliente()
+  const { novoCliente, salvarCliente, clienteSelecionado, clienteExcluido, formularioVisivel, tabelaVisivel, cliente, clientes, exibirTabela } = useCliente()
 
   return (
     <div className={`
